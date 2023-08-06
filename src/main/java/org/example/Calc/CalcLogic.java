@@ -3,9 +3,15 @@ package org.example.Calc;
 import java.util.Scanner;
 
 public class CalcLogic {
-     double a = 0;
-     double b = 0;
-     boolean exit = false;
+    /**
+     sum();      //Метод суммирования чисел
+     multiply(); //Метод умножения чисел
+     diff();     //Метод вычитания чисел
+     divide();   //Метод деления чисел
+     */
+     double a;
+     double b;
+     boolean exit;
      private final Scanner scanner;
 
     public CalcLogic() {
@@ -26,7 +32,7 @@ public class CalcLogic {
         b = inputDouble();
     }
 
-    private boolean choice() {
+    private void choice() {
         while (!exit) {
             System.out.println();
             System.out.println("***Добро пожаловать в калькулятор! Следуй шагам и у тебя все получится!***");
@@ -60,7 +66,6 @@ public class CalcLogic {
                 default -> System.out.println("Неверная команда");
             }
         }
-        return false;
     }
     private void divide() {
         System.out.println(a + " / " + b + " = " +(b != 0 ?(a / b):("Нелья делить на ноль!")));
