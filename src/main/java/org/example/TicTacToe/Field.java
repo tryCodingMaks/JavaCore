@@ -37,10 +37,10 @@ public class Field {
         return isFull;
     }
 
-    public boolean placeMark(int row, int columns, char mark) {
-        if (row >= 0 && row < size && columns >= 0 && columns < size) {
-            if (board[row][columns] == '-') {
-                board[row][columns] = mark;
+    public boolean placeMark(int rows, int columns, char mark) {
+        if (rows >= 0 && rows < size && columns >= 0 && columns < size) {
+            if (board[rows][columns] == '-') {
+                board[rows][columns] = mark;
                 return true;
             }
         }
