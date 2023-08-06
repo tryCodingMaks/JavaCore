@@ -63,7 +63,7 @@ public class CalcLogic {
         return false;
     }
     private void divide() {
-        System.out.println((a + " / " + b + " = " +(b != 0 ?(a / b):("Нелья делить на ноль!"))));
+        System.out.println(a + " / " + b + " = " +(b != 0 ?(a / b):("Нелья делить на ноль!")));
     }
 
     private void diff() {
