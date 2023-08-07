@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 public class CalcLogic {
     /**
-     sum();      //Метод суммирования чисел
-     multiply(); //Метод умножения чисел
-     diff();     //Метод вычитания чисел
-     divide();   //Метод деления чисел
+     * sum();      //Метод суммирования чисел
+     * multiply(); //Метод умножения чисел
+     * diff();     //Метод вычитания чисел
+     * divide();   //Метод деления чисел
      */
-     double a;
-     double b;
-     boolean exit;
-     private final Scanner scanner;
+    private final Scanner scanner;
+    double a;
+    double b;
+    boolean exit;
+
 
     public CalcLogic() {
         this.a = 0;
@@ -67,8 +68,9 @@ public class CalcLogic {
             }
         }
     }
+
     private void divide() {
-        System.out.println(a + " / " + b + " = " +(b != 0 ?(a / b):("Нелья делить на ноль!")));
+        System.out.println(a + " / " + b + " = " + (b != 0 ? (a / b) : ("Нелья делить на ноль!")));
     }
 
     private void diff() {
