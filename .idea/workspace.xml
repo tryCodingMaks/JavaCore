@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4fcbc14-3a69-4b97-88ed-ba627f3f2e1d" name="Changes" comment="version v1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Book/LibraryBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Book/LibraryBooksLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Animal/AnimalLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Animal/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Animal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Personal/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Personal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Personal/StaffLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calc/CalcLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc/CalcLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2R9cnAV6tGj1aLHsDh9RQg6Lgtl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/learn/IdeaProjects/JavaCore",
+    "last_opened_file_path": "C:/Users/learn/IdeaProjects/2023-02-lessons",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -66,7 +74,7 @@
       <recent name="org.example.Book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryBook">
+  <component name="RunManager" selected="Application.org.example.OOP.Animal.Main">
     <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Calc.Calc" />
       <module name="JavaCore" />
@@ -106,8 +114,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.OOP.Personal.Main" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.OOP.Personal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.OOP.Animal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.OOP.Animal.Main" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.OOP.Animal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.OOP.Animal.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LibraryBook" />
         <item itemvalue="Application.Calc" />
         <item itemvalue="Application.GameRunner" />
@@ -172,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691311429025</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="version v1.0">
+      <created>1691389426788</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691389426788</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
