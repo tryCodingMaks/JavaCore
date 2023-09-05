@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4fcbc14-3a69-4b97-88ed-ba627f3f2e1d" name="Changes" comment="version v1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Cars/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Cars/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Cars/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Cars/Wheels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc/TestWork/ArithmeticCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc/TestWork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc/TestWork/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <recent name="org.example.Book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.OOP.Cars.Main">
+  <component name="RunManager" selected="Application.org.example.Calc.TestWork.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.OOP.Robot.Main" />
       <module name="JavaCore" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="org.example.Calc.TestWork.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Calc.TestWork.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Calc.TestWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Calc.TestWork.Main" />
         <item itemvalue="Application.org.example.OOP.Cars.Main" />
         <item itemvalue="Application.org.example.OOP.Delivery.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.Robot.Main" />
-        <item itemvalue="Application.org.example.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693929901894</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="version v1.0">
+      <created>1693930997365</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693930997365</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
