@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4fcbc14-3a69-4b97-88ed-ba627f3f2e1d" name="Changes" comment="version v1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc/TestWork/ArithmeticCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc/TestWork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc/TestWork/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/hard/HardDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/hard/HardDiscType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/keyboard/Illuminate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/keyboard/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/keyboard/KeyboardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/memory/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/memory/MemoryTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/monitor/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/monitor/MonitorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/processor/CoreCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/processor/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/processor/Frequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/processor/Processors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -65,6 +75,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.OOP.Computer" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -72,7 +85,7 @@
       <recent name="org.example.Book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.Calc.TestWork.Main">
+  <component name="RunManager" selected="Application.org.example.OOP.Computer.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.OOP.Robot.Main" />
       <module name="JavaCore" />
@@ -112,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.OOP.Computer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.OOP.Computer.Main" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.OOP.Computer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.OOP.Delivery.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.OOP.Delivery.Main" />
       <module name="JavaCore" />
@@ -125,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.Robot.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Robot.Main" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Robot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.OOP.Computer.Main" />
         <item itemvalue="Application.org.example.Calc.TestWork.Main" />
         <item itemvalue="Application.org.example.OOP.Cars.Main" />
         <item itemvalue="Application.org.example.OOP.Delivery.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.example.Robot.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693930997365</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="version v1.0">
+      <created>1693931928911</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693931928911</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
