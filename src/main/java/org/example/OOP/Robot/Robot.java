@@ -1,4 +1,4 @@
-package org.example.Robot;
+package org.example.OOP.Robot;
 
 public class Robot {
     private int x;

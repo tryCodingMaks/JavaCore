@@ -1,4 +1,4 @@
-package org.example.Human;
+package org.example.OOP.Human;
 
 public class Person {
     private String name;

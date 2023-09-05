@@ -1,4 +1,4 @@
-package org.example.Robot;
+package org.example.OOP.Robot;
 
 public class Main {
     public static void main(String[] args) {
