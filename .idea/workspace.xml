@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4fcbc14-3a69-4b97-88ed-ba627f3f2e1d" name="Changes" comment="version v1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/hard/HardDisc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/hard/HardDiscType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/keyboard/Illuminate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/keyboard/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/keyboard/KeyboardType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/memory/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/memory/MemoryTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/monitor/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/monitor/MonitorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/processor/CoreCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/processor/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/processor/Frequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/processor/Processors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/String/TEST1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/Computer/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +17,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aa99d63f-b386-4c3e-aae2-73e356e8f871" />
+        <option name="url" value="git@github.com:tryCodingMaks/JavaCore.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,21 +60,22 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/learn/IdeaProjects/JavaCore",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/learn/IdeaProjects/JavaCore&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.OOP.String" />
       <recent name="org.example.OOP.Computer" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -85,13 +85,13 @@
       <recent name="org.example.Book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.OOP.Computer.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.OOP.Robot.Main" />
+  <component name="RunManager" selected="Application.TEST1">
+    <configuration name="TEST1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.OOP.String.TEST1" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.OOP.Robot.*" />
+          <option name="PATTERN" value="org.example.OOP.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TEST1" />
         <item itemvalue="Application.org.example.OOP.Computer.Main" />
         <item itemvalue="Application.org.example.Calc.TestWork.Main" />
         <item itemvalue="Application.org.example.OOP.Cars.Main" />
         <item itemvalue="Application.org.example.OOP.Delivery.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693931928911</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="version v1.0">
+      <created>1693936957300</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693936957300</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
