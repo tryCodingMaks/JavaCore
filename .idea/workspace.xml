@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4fcbc14-3a69-4b97-88ed-ba627f3f2e1d" name="Changes" comment="version v1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/String/TEST1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/String/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,20 @@
       <recent name="org.example.Book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TEST1">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.String.Main" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TEST1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.OOP.String.TEST1" />
       <module name="JavaCore" />
@@ -138,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.OOP.Delivery.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.OOP.Delivery.Main" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.OOP.Delivery.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TEST1" />
         <item itemvalue="Application.org.example.OOP.Computer.Main" />
         <item itemvalue="Application.org.example.Calc.TestWork.Main" />
         <item itemvalue="Application.org.example.OOP.Cars.Main" />
-        <item itemvalue="Application.org.example.OOP.Delivery.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693936957300</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="version v1.0">
+      <created>1694088542259</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1694088542259</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
