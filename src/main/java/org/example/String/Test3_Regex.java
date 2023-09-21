@@ -1,9 +1,31 @@
 package org.example.String;
+
+import org.example.OOP.Phone.Phone;
+
+import java.util.Scanner;
+
 //https://regex101.com/
 public class Test3_Regex {
     public static void main(String[] args) {
-        String prices = "Молоко: 89р, Масло: 120р, Печенье: 60р, Шоколад: 30р";
-        System.out.println(prices.replaceAll("[А-я]{3,5}","*"));
+        String test = new Scanner(System.in).nextLine();
+
+        if(test.matches("([А-я]+\\s+){2}([А-я]+)")) {
+            System.out.println("valid");
+        } else {
+            System.out.println("invalid");
+        }
+
+
+
+
+//        String prices = "Молоко: 89р, Масло: 120р, Печенье: 60р";
+//        prices = prices.replaceAll("\\D+", " ").trim();
+//        String[] split = prices.split("\\s");
+//        int sum = 0;
+//        for (String e: split) {
+//            sum =+ Integer.parseInt(e);
+//        }
+//        System.out.println(sum);
 
 
 
