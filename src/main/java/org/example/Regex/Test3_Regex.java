@@ -1,4 +1,4 @@
-package org.example.String;
+package org.example.Regex;
 
 import java.util.Scanner;
 
