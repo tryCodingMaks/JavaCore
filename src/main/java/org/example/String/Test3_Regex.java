@@ -6,10 +6,12 @@ import java.util.Scanner;
 
 //https://regex101.com/
 public class Test3_Regex {
+    public  static final String REGEX= "([А-я]+\\s+){2}([А-я]+)";
+
     public static void main(String[] args) {
         String test = new Scanner(System.in).nextLine();
 
-        if(test.matches("([А-я]+\\s+){2}([А-я]+)")) {
+        if(test.matches(REGEX)) {
             System.out.println("valid");
         } else {
             System.out.println("invalid");
